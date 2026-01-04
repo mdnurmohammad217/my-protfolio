@@ -35,15 +35,16 @@ li{
 li, a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 li, a:hover{
     
     color: rgb(240, 2, 2);
 }
-button{
+.con{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(160deg, rgb(227, 3, 216), rgb(1, 205, 208));
+    background: green;
     color: #fff;
     border: none;
     padding: 8px 30px;
@@ -56,10 +57,11 @@ button{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    min-height: 500px;
+    min-height: 400px;
     justify-content: center;
     align-items: center;
-    background-image: url(bannar.jpg);
+    /* background-image: url(bannar.jpg); */
+    background: linear-gradient(150deg, #14244F, #1E3885, #14244F);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -70,6 +72,49 @@ h2{
     align-items: center;
     text-align: center;
     font-family: 'Tiro Bangla', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Tiro Bangla', sans-serif;
+    font-size: 30px;
+    color: #FDD063;
+
+}
+
+h4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Tiro Bangla', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 0px;
+
+}
+
+.co{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #1A377F;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 50px;
+    border: 1px solid #2F58A3;
+    margin-bottom: 30px;
+
+}
+
+.second{
+
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    min-height: 400px;
 
 }

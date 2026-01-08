@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
@@ -7,11 +7,14 @@ body{
     font-weight: 500;
 }
 
-.fa-trophy, .fa-circle-check, .fa-people-group, .fa-award{
+.fa-trophy,
+.fa-circle-check,
+.fa-people-group,
+.fa-award {
     color: #FACC15;
 }
 
-#main-header{
+#main-header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -24,33 +27,34 @@ body{
 
 }
 
-#main-header img{
+#main-header img {
     max-width: 120px;
 }
 
-#main-header .menu ul li{
+#main-header .menu ul li {
     display: inline;
     list-style-type: none;
     margin-right: 20px;
 }
-#main-header .menu ul li a{
+
+#main-header .menu ul li a {
     text-decoration: none;
     color: #434343;
     font-size: 16px;
     font-weight: 700;
 }
 
-#main-header .menu ul li a:hover{
+#main-header .menu ul li a:hover {
     color: #ff6600;
-    
+
 }
 
-#main-header .menu ul li a:active{
+#main-header .menu ul li a:active {
     color: #ff6600;
-    
+
 }
 
-.Contact-info .btn{
+.Contact-info .btn {
     background-color: #25D366;
     font-size: 15px;
     font-weight: 600;
@@ -61,8 +65,8 @@ body{
     cursor: pointer;
 }
 
-.Contact-info .booking{
-    background: linear-gradient(130deg, rgb(0, 129, 249) , rgba(206, 0, 213, 0.651));
+.Contact-info .booking {
+    background: linear-gradient(130deg, rgb(0, 129, 249), rgba(206, 0, 213, 0.651));
     font-size: 15px;
     padding: 14px 15px;
     font-weight: 600;
@@ -72,7 +76,7 @@ body{
     cursor: pointer;
 }
 
-#banner-part{
+#banner-part {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,18 +87,18 @@ body{
     background: linear-gradient(-190deg, #132146, #1D3885, #132146);
     box-sizing: border-box;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     padding: 70px 0px;
 }
 
-#banner-part .midal{
+#banner-part .midal {
     /* padding: 70px 0; */
     text-align: center;
     color: #fff;
-    
+
 }
 
-.midal .award{
+.midal .award {
     background-color: #192F6C;
     padding: 10px 20px;
     border: 0.5px solid #1640b4;
@@ -102,42 +106,44 @@ body{
     font-size: 14px;
     color: #fff;
     margin-bottom: -10px;
-    
+
 }
 
-.midal h2{
+.midal h2 {
     font-size: 47px;
     font-weight: 700;
     margin-bottom: -10px;
 }
-.midal h3{
+
+.midal h3 {
     font-size: 24px;
     font-weight: 700;
     color: #FDE047;
 }
 
-.midal .website{
+.midal .website {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
 }
 
-#banner-part .banner-socail{
+#banner-part .banner-socail {
     /* align-items: center;
     text-align: center; */
     color: #BFDBFE;
     font-size: 14px;
     font-weight: 400;
-    
-}
-#banner-part .banner-socail .socil li{
-    display: inline;
-    margin-right: 30px;
-    
-    
+
 }
 
-.Contact-info .tel-me{
+#banner-part .banner-socail .socil li {
+    display: inline;
+    margin-right: 30px;
+
+
+}
+
+.Contact-info .tel-me {
     background-color: rgba(255, 0, 0, 0);
     border: 1px solid #93b3ff4a;
     font-size: 15px;
@@ -149,10 +155,98 @@ body{
 
 }
 
+#contant-card {
+    width: 100%;
+    background-image: url(images/background.jpg);
+    margin: 0px auto;
+    /* height: 100vh; */
+    background-position: center;
+    background-repeat:  repeat-y;
+    background-size: contain;
+    text-align: center;
 
 
 
+}
+
+#contant-card .section-heading {
+    padding: 100px 0px 0px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#contant-card .contant-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px 30px;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+
+}
+
+#contant-card .card .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(130deg, #2a98ab, #1411ac);
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    color: #fff;
+
+    
+}
+
+#contant-card .card {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-width: 6px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 15px 20px 5px #e6e6e6;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+
+}
 
 
+#contant-card .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #d301be, #13a1dd);
+    border-top-left-radius: 12px;
+}
 
+#contant-card .card h2 {
 
+    font-size: 20px;
+
+}
+
+#contant-card .card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434343;
+
+}
+
+#contant-card .btn{
+    background-color: #25D366;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}

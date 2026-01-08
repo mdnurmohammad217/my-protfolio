@@ -211,6 +211,24 @@ body {
     text-align: left;
     position: relative;
     overflow: hidden;
+    transition: 0.5s ;
+
+}
+
+
+#contant-card .card:hover {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-width: 6px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 15px 20px 5px #e6e6e6;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1.1);
+    /* transform: translateY(20px) rotate(10deg) scale(1.1); */
+    cursor: pointer;
 
 }
 
@@ -263,7 +281,7 @@ body {
     margin: 0 auto;
     display: flex;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px;
     flex-wrap: wrap;
 }
@@ -274,11 +292,27 @@ body {
     padding: 30px;
     border-width: 6px 0px 0px;
     border-radius: 20px;
+    /* box-shadow: 5px 15px 20px 5px #e6e6e6; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#my-service .card-service:hover{
+    width: 300px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-width: 6px 0px 0px;
+    border-radius: 20px;
     box-shadow: 5px 15px 20px 5px #e6e6e6;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .card-service .head-main{

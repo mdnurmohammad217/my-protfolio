@@ -164,8 +164,7 @@ body {
     background-repeat:  repeat-y;
     background-size: contain;
     text-align: center;
-
-
+    padding: 0px 0px 60px;
 
 }
 
@@ -249,4 +248,79 @@ body {
     border-radius: 50px;
     color: #fff;
     cursor: pointer;
+}
+
+#my-service{
+    width: 100%;
+    background-color: #F8F5FF;
+    margin: 0px auto;    
+    text-align: center;
+    padding: 50px 0;
+}
+
+#my-service .service-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+#my-service .card-service{
+    width: 300px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-width: 6px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 15px 20px 5px #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-service .head-main{
+    font-size: 24px;
+}
+
+#my-service .service-heading{
+    font-size: 48px;
+}
+
+
+.card-service .head-para{
+    font-size: 18px;
+    color: #595959;
+}
+
+#my-service .service-paragrap{
+    font-size: 20px;
+    color: #595959;
+}
+
+.card-service .btn{
+    background-color: #25D366;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-service .icon-service{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: linear-gradient(130deg, #2a98ab, #1411ac);
+    text-align: center;
+    font-size: 55px;
+    border-radius: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
